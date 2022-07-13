@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.time.LocalDateTime;
 
 @Entity
 @NoArgsConstructor
@@ -18,6 +19,9 @@ public class Album {
     private String title;
     private String image;
     private String writing;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
 
     @Builder
     public Album(long id, String title, String image, String writing) {
