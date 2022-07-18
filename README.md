@@ -24,5 +24,7 @@ BackEnd : java11, SpringBoot, JPA, MYSQL
 5. 일기
    1) 일기 쓰기
 6. 캘린더
+   1) 앨범과 연동할지 말지 고민중
+   2) 구글 캘린더와 연동
 
 ##산출물
