@@ -10,6 +10,9 @@ BackEnd : java11, SpringBoot, JPA, MYSQL
 ##기능
 1. 로그인
 2. 앨범
+3. 일기
+4. 캘린더
+
 
 ##기능설명
 1. 로그인
