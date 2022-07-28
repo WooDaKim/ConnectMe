@@ -3,7 +3,7 @@
 
 ##사용기술
 FrontEnd : 
-BackEnd : java11, SpringBoot, JPA, MYSQL
+BackEnd : java, SpringBoot, JPA, MYSQL
 
 
 
@@ -26,6 +26,7 @@ BackEnd : java11, SpringBoot, JPA, MYSQL
       1) 아이디와 전화번호를 입력하고 전화번호로 발송된 문자 확인후 새로운 비밀번호 알려줌
 4. 앨범
    1) 앨범을 들어가려고할때 로그인이 안된 상태라면 로그인페이지로 리다이렉션 할것
+   2) 사진정보를 받아서 날짜와 찍었던 기종등을 등록한다.
 5. 일기
    1) 일기 쓰기
    2) 사진도 첨부가능(그림일기처럼)
