@@ -2,7 +2,7 @@
 나의 시간을 담는 웹 서비스
 
 ##사용기술
-FrontEnd : 
+FrontEnd : bootstrap
 BackEnd : java, SpringBoot, JPA, MYSQL
 
 
