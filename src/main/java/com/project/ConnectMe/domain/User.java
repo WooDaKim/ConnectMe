@@ -19,11 +19,12 @@ public class User {
     private String phone;
     private String bloodType;
 
-    @Builder
-    public User(long id, String name, String phone, String bloodType) {
-        this.id = id;
-        this.name = name;
-        this.phone = phone;
-        this.bloodType = bloodType;
-    }
+    //성적표  ==> 과목명이 바뀔수도 있으니 입력을 받아서 숫자를 입력하는 걸로 바꿔보자
+    private Subject korean;
+    private Subject english;
+    private Subject math;
+    private Subject social;
+    private Subject science;
+
+
 }
